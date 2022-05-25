@@ -1,0 +1,179 @@
+body {
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    background-image: url('images/background5.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color:rgb(7, 2, 2);
+    position: relative;
+    margin-top: 0px;
+    margin-left: 390px;
+    margin-bottom: 50px;
+    margin-right: 200px;
+
+
+}
+
+#indname{
+    color: blue;
+}
+
+#pakname{
+    color: green;
+}
+
+#between{
+    color: red;
+    font-size: 90px;
+}
+#indScore
+{
+    color: black;
+}
+ 
+
+h2{
+    position: relative;
+    font-size: 35px;
+    font-style: normal;
+    color: #000;
+    text-align: center ;
+}
+#start{
+    display:inline-block;
+    position: relative;
+    margin-left: 600px;
+}
+
+#pakistan{
+    height: 50px;
+    width: 50px;
+    margin-left: 350px;
+    
+    margin-top: -350px;
+    position: absolute;
+    
+}
+
+#indscore span{
+    color: blue;
+}
+
+#india {
+    height: 50px;
+    width: 50px;
+    margin-left: -500px;
+    margin-top: -350px;
+    position: absolute;
+}
+
+ button {
+    width: 100px;
+    height: 40px;
+    color: rgb(17, 3, 3);
+    border-radius: 15px;
+    padding: 5px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+           7px 7px 20px 0px rgba(0, 0, 0, .1),
+           4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 70px;
+   }
+   
+   button {
+    background: linear-gradient(0deg, rgb(0, 255, 0) 0%, rgb(2, 251, 56) 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+   }
+   
+   button span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+   }
+   
+   button:before,
+   button:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #02fb61;
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, .9),
+           -4px -4px 5px 0px rgba(255, 255, 255, .9),
+           7px 7px 20px 0px rgba(0, 0, 0, .2),
+           4px 4px 5px 0px rgba(0, 0, 0, .3);
+    transition: all 0.3s ease;
+   }
+   
+   button:before {
+    height: 0%;
+    width: 2px;
+   }
+   
+   button:after {
+    width: 0%;
+    height: 2px;
+   }
+   
+   button:hover {
+    color: #080f0a;
+    background: transparent;
+   }
+   
+   button:hover:before {
+    height: 100%;
+   }
+   
+   button:hover:after {
+    width: 100%;
+   }
+   
+   button span:before,
+   button span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: rgb(11, 15, 12);
+    box-shadow: -7px -7px 20px 0px rgba(255, 255, 255, .9),
+           -4px -4px 5px 0px rgba(255, 255, 255, .9),
+           7px 7px 20px 0px rgba(0, 0, 0, .2),
+           4px 4px 5px 0px rgba(0, 0, 0, .3);
+    transition: all 0.3s ease;
+   }
+   
+   button span:before {
+    width: 2px;
+    height: 0%;
+   }
+   
+   button span:after {
+    height: 2px;
+    width: 0%;
+   }
+   
+   button span:hover:before {
+    height: 100%;
+   }
+   
+   button span:hover:after {
+    width: 100%;
+   }  
